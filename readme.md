@@ -1,1 +1,1 @@
-Calculadora da loja PLAYSTATION STORE
+Calculadora da loja PLAYSTATION STORE.
