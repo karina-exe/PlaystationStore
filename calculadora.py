@@ -1,3 +1,5 @@
+#IMPORTANTE: Comentários adicionais ao fim do código.
+
 #Input 01: O primeiro input para determinar se o usuário tem a idade necessária
 #para ganhar os descontos.
 
@@ -16,6 +18,7 @@ if idade <= 18:
     print("Consulte o Manual do Usuário para mais informações.")
     import sys
     sys.exit()
+
 else:
     valor = float(input("Digite o valor da sua compra: "))
 
@@ -52,9 +55,12 @@ else:
 
 print("A Playstation® agradece sua preferência.")
 
-#Comentários adicionais: decidi impor um limite de compra até R$, pois notei que, sem o limite
-#o programa jamais iria retornar a mensagem de "else" e obviamente eu gostaria que essa mensagem
-#retornasse em algum momento. Além do disso, pesquisei em um fórum sobre Python como encerrar parte
-#do programa e descobri que se usa 'import sys sys.exit()', isso porque decidi estabelecer uma outra
-#condição: somente usuários maiores de idade podem fazer compras na Playstation Store, portanto, o programa
-#encerra se o usuário for menor de idade.
+#Comentários adicionais:
+#
+#01. Decidi impor um limite de compra até R$400, pois sem o limite, o programa jamais iria
+#retornar a mensagem de "else" e obviamente eu gostaria que essa mensagem aparecesse em algum momento.
+
+#02. Decidi estabelecer uma nova condição: somente usuários maiores de idade podem prosseguir com a
+#compra, sendo aptos para receber o desconto. Devido a isso, se o usuário for menor de idade, o
+#programa é encerrado com uma mensagem. Para não gerar nenhum bug, descobri em um fórum de ajuda que,
+#se eu colocasse 'import sys sys.exit() o programa encerraria, sem prejudicar o resto do código.
