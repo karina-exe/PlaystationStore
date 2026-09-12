@@ -1,6 +1,6 @@
 # 🖤Calculadora de descontos  — Playstation Store🖤
 
-<img src="https://i.ibb.co/Gw85ZBG/playstation-store2.gif" alt="Banner" width="70%">
+<img src="https://i.ibb.co/Gw85ZBG/playstation-store2.gif" alt="Banner" width="100%">
 
 
 A calculadora foi desenvolvida para aplicar descontos para usuários que efetuam compras 
