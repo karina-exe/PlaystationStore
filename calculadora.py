@@ -14,7 +14,7 @@ idade = int(input("Antes de prosseguir, insira sua idade: "))
 #com a política de compra da Playstation Store.
 
 if idade < 18:
-    print("Desculpe, você não possui o requisito necessário para o receber desconto.")
+    print("Desculpe, você não possui o requisito necessário para receber o desconto.")
     print("O Controle Parental não permite que usuários menores de idade efetuem compras.")
     print("Consulte o Manual do Usuário para mais informações.")
     import sys
