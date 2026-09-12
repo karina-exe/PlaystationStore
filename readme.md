@@ -1,6 +1,6 @@
 # 🖤Calculadora de descontos  — Playstation Store🖤
 
-<img src="https://i.ibb.co/Gw85ZBG/playstation-store2.gif" alt="Banner" width="100%">
+<img src="https://i.ibb.co/Gw85ZBG/playstation-store2.gif" alt="Banner" width="95%">
 
 
 A calculadora foi desenvolvida para aplicar descontos para usuários que efetuam compras 
@@ -16,7 +16,7 @@ o que faria com que o uso de "else" fosse inútil.
 
 # 🖤Condição extra —  idade🖤
 
-O programa irá calcular os descontos <b>SE</b> o usuário for maior de idade, <b>SENÃO</b>, uma
+O programa irá calcular os descontos <b>SE</b> o usuário for maior de idade, <b>SE NÃO</b>, uma
 mensagem retorna explicando o motivo pelo qual o cálculo foi recusado, sendo os parâmetros:
 
 - Maior de idade (=>18) = True
